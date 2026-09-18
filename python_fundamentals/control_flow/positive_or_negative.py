@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" This script assigns a random number and checks if it is positive or negative."""
+# Script to check if a random number is positive, zero, or negative
 number = __import__('random').randint(-10, 10)
 
 if number > 0:
