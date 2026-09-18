@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Script to import arithmetic functions and print formatted results
+# New update to refresh the repository
 from calculator_1 import add, sub, mul, div
 
 if __name__ == "__main__":
