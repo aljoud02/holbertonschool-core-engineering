@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 # Script to import add function and print formatted result
-
-
 from add_0 import add
 
 if __name__ == "__main__":
