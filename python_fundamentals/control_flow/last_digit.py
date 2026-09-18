@@ -15,4 +15,3 @@ elif last_digit == 0:
     print(f"{output_base} and is 0")
 else:
     print(f"{output_base} and is less than 6 and not 0")
-
