@@ -24,4 +24,3 @@ def safe_print_list(my_list=[], x=0):
             break
     print("")  # Print the mandatory newline character at the end
     return count
-
