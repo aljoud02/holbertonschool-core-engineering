@@ -6,7 +6,7 @@ This module explores multiple inheritance behaviors and method resolution.
 
 class Fish:
     """
-    Defines a base class representing fish entities and aquatic behaviors.
+    Defines a base class representing fish entities.
     """
 
     def swim(self):
@@ -24,7 +24,7 @@ class Fish:
 
 class Bird:
     """
-    Defines a base class representing bird entities and aerial behaviors.
+    Defines a base class representing bird entities.
     """
 
     def fly(self):

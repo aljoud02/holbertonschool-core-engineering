@@ -6,7 +6,7 @@ This module demonstrates composition design via isolated mixin modules.
 
 class SwimMixin:
     """
-    Provides isolated swimming capabilities for composite structures.
+    Provides isolated swimming capabilities.
     """
 
     def swim(self):
@@ -18,7 +18,7 @@ class SwimMixin:
 
 class FlyMixin:
     """
-    Provides isolated flying capabilities for composite structures.
+    Provides isolated flying capabilities.
     """
 
     def fly(self):

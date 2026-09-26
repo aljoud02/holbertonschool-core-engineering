@@ -13,8 +13,7 @@ class Animal(ABC):
     @abstractmethod
     def sound(self):
         """
-        Abstract method that must be implemented by subclasses to return
-        the respective animal sound.
+        Abstract method that must be implemented by subclasses.
         """
         pass
 
@@ -27,9 +26,6 @@ class Dog(Animal):
     def sound(self):
         """
         Implements the sound method for a dog.
-
-        Returns:
-            str: The sound of a dog.
         """
         return "Bark"
 
@@ -42,8 +38,5 @@ class Cat(Animal):
     def sound(self):
         """
         Implements the sound method for a cat.
-
-        Returns:
-            str: The sound of a cat.
         """
         return "Meow"
