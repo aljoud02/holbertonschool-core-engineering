@@ -6,14 +6,14 @@ This module provides a function for safely printing integers from a list.
 
 def safe_print_list_integers(my_list=[], x=0):
     """
-    Prints the first x elements of a list and only if they are integers.
+    Prints the first x elements of a list, but only if they are integers.
 
     Args:
         my_list (list): The list containing elements of any type.
         x (int): The number of elements to access from the list.
 
     Returns:
-        int: The number of integers printed.
+        int: The number of integers successfully printed.
     """
     count = 0
     for i in range(x):
